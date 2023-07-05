@@ -24,8 +24,8 @@ logging:
 feign:
   client:
     config:
-      default:  # 对它调用的所有微服务都生效
-    #  userservice  只对userservice 这一个微服务生效
+      default: # 对它调用的所有微服务都生效
+        #  userservice  只对userservice 这一个微服务生效
         loggerLevel: BASIC  # 显示全部日志
   httpclient:
     enabled: true  #开启feign的htpptclient连接池的支持
