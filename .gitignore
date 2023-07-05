@@ -1,0 +1,4 @@
+# Project exclude paths
+/FeignAPI/target/
+/order-service/target/
+/user-service/target/
